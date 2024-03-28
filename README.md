@@ -19,3 +19,8 @@ SELECT * FROM `alunos` WHERE sobrenome LIKE '%Santos%';
 ```sql
 SELECT * FROM `alunos` WHERE sobrenome LIKE '%Santos'; 
 ```
+
+### Para filtrar e mostrar apenas os alunos que o sobrenome tem a palavra 'Silv', executamos o seguinte código:
+```sql
+SELECT * FROM `alunos` WHERE sobrenome LIKE '%Silv'; 
+```
