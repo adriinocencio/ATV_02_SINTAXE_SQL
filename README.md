@@ -14,3 +14,8 @@ SELECT * FROM `alunos` WHERE sobrenome = 'Santos';
 ```sql
 SELECT * FROM `alunos` WHERE sobrenome LIKE '%Santos%'; 
 ```
+
+### Para filtrar e mostrar apenas os alunos que o sobrenome acaba com a palavra 'Santos', executamos o seguinte código:
+```sql
+SELECT * FROM `alunos` WHERE sobrenome LIKE '%Santos'; 
+```
