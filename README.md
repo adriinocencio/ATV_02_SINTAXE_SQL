@@ -24,3 +24,8 @@ SELECT * FROM `alunos` WHERE sobrenome LIKE '%Santos';
 ```sql
 SELECT * FROM `alunos` WHERE sobrenome LIKE '%Silv'; 
 ```
+
+### Para filtrar e mostrar apenas os alunos que o sobrenome tem a palavra 'Silv' e a idade de 16 anos, executamos o seguinte código:
+```sql
+SELECT * FROM `alunos` WHERE sobrenome LIKE '%Silv' and idade = 16; 
+```
