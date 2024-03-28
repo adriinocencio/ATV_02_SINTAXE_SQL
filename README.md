@@ -2,10 +2,15 @@
 
 ### Para filtrar e mostrar apenas os alunos com 16 anos, executamos o seguinte código:
 ```sql
-SELECT * FROM `alunos` WHERE idade = 16 
+SELECT * FROM `alunos` WHERE idade = 16; 
 ```
 
-### Para filtrar e mostrar apenas os alunos com 16 anos, executamos o seguinte código:
+### Para filtrar e mostrar apenas os alunos com o sobrenome 'Santos', executamos o seguinte código:
 ```sql
-SELECT * FROM `alunos` WHERE sobrenome = 'Santos' 
+SELECT * FROM `alunos` WHERE sobrenome = 'Santos'; 
+```
+
+### Para filtrar e mostrar apenas os alunos que no sobrenome tem a palavra 'Santos', executamos o seguinte código:
+```sql
+SELECT * FROM `alunos` WHERE sobrenome LIKE '%Santos%'; 
 ```
